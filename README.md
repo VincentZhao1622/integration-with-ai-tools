@@ -23,31 +23,12 @@
   调查顺序暂定 copilot - continue - trae - cursorAI - Amazon - ...
 
 * 3. 调查方案
-    - Frontend:给定一前端的单页cart代码，和一个对接手册里提供的sample代码。看工具能否通过某种方式自动生成对接完成代码。
-      - 第一阶段，html购物车
-      - 第二阶段，react购物车
-    - 前端对接方案:
-      - 第一阶段，BCDC方案
-      - 第二阶段，ACDC方案
-      - 第三阶段，GP/AP方案
-    - Backend: 给定pp developer生成的sample代码，以及字段的具体描述，看能否完成对接代码生成。
-      - 第一阶段：java
-      - 第二阶段：nodejs
-      - 第三阶段：其他支持的语言
-    - 后端目标API： 
-      - 第一阶段，测试order API的OrdersCreate和OrdersCapture
-      - 第二阶段，其他相关的API陆续接入
-    - 前后端Object Scope定义：
-      - 第一(mvp)阶段提供minimum可通过API验证的必要信息，验证是否能够完成代码生成；
-      - 第二阶段提供更多的常用信息，如商品信息，shipping信息及其他信息，验证是否能够完成代码；
-      - 第三阶段，真实案例中的case字段
-
-* 4. 代码准备
-    * 4.1 准备sample代码
-    - 首先准备最基础的代码，即 html购物车+BCDC+java后端+orderAPI+mvp字段
-    - 不需要从零开始对接，paypal developer有提供的sample代码，可以引导商户从sample代码下载开始入手。
-    `
-    https://developer.paypal.com/studio/checkout/standard/integrate
-    `
-    选择html+java
+    - 目前设定3个use cases,
+    1. Auto-generate CreateOrder API mappings,(自动生成CreateOrder API的代码转换逻辑)。
+    2. Auto-complete coding with PayPal sample codes（基于PayPal的sample代码，自动补全代码）
+    3. Auto-testing with PayPal sample requests （自动生成测试代码）
+    
+    
+* 4. 开始调查
+    * 4.1 首先进行第一个use case的调查。
     
