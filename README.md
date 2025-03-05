@@ -12,7 +12,7 @@
   | --------------- | --------------- | ------------------------------------- |
   | Independent vendors | Github Copilot, Continue.dev, Cursor AI | 独立厂商，可接入大部分主流LLM |
   | Global 1st Party vendors | ChatGPT Coding assistant, Claude Code, Gemini Code Assistant | 一方厂商，对自家的LLM兼容好 |
-  | China 1st Party vendors | DeepSeek coder, Trae ai(ByteDance), Baidu Comate | 国内一方厂商，提供中文论坛支持，方便国内技术人员使用 |
+  | China 1st Party vendors | DeepSeek coder, MarsCode(ByteDance), Baidu Comate | 国内一方厂商，提供中文论坛支持，方便国内技术人员使用 |
 
 * 3. 调查方案
     - 目前设定3个use cases,
