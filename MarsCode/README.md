@@ -1,6 +1,8 @@
 # MarsCode调查
+
 ## 1. MarsCode总览
-* 调查时间 ： 2025年3月5日
+
+* 调查时间 ： 2025年3月6日
 
  | Feature  | Comments |
  | -------- | -------- |
@@ -12,10 +14,12 @@
  | 中文支持  | 好        |  
 
 ## 2. 调研Use case 1, JAVA后端 + PayPal javasdk(v2)
- - IDE: IntelliJ IDEA 2024.3.4 (Community Edition)
- - 插件： IDEA github MarsCode - 1.5.37版本
- - JAVA版本： 21
- - 代码使用清单
+
+* IDE: IntelliJ IDEA 2024.3.4 (Community Edition)
+* 插件： IDEA github MarsCode - 1.5.37版本
+* JAVA版本： 21
+* 代码使用清单：
+
   | No.  | Name     | Comments |
   | ---- | -------- | -------- |
   | 1    | OrderVO.java | 模拟商户网站原有数据模型 |
@@ -24,7 +28,7 @@
 
   ### 2.1 MarsCode + DeepSeek
    * 使用MarsCode的chat功能，提供合适的提示词及材料，尝试让工具生成我们想要的代码
-  1. Try1：
+  1. 场景一：
   
 
   
