@@ -37,3 +37,6 @@
     * PayPal相关的数据均从PayPal官方developer Portal获取，无额外加工。
     * 购物车示例如下。
         ![Sample Shopping Cart](./images/Sample_Shopping_cart.png)
+  * 4.1.3 调查记录
+    * MarsCode调查详细:  [MarsCode调查详细.md](./MarsCode/README.md)
+    * Copilot调查详细： [Copilot调查详细.md](./Copilot/README.md)
