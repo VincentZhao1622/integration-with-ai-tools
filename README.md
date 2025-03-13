@@ -51,10 +51,6 @@
 * 本次调查使用报文"200 - Create Order With Detailed Request - PayPal".
 ![Postman request sample](./images/Postman_request_sample.png)
 
-  * 4.1.1 选择CreateOrder API的原因，
-* API是传输业务数据的主要API；
-* 其中的格式是相对固定，且包含了较多的业务校验；
-
 ## 5. 方案调查详细
 
 ### 5.1 Auto-generate CreateOrder API mappings(自动生成CreateOrder API的代码转换逻辑)
