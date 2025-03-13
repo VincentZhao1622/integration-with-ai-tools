@@ -9,7 +9,7 @@
  | 费用     | 免费 |
  | 默认LLM  | DouBao/DeepSeek |
  | IDE支持  | Vscode/idea插件支持 |
- | 编程支持  | 对话      |
+ | 编程支持  | 对话/自动补全   |
  | VPN?     | 不需要     |
  | 中文支持  | 好        |  
 
@@ -23,7 +23,7 @@
   | No.  | Name     | Comments |
   | ---- | -------- | -------- |
   | 1    | OrderVO.java | 模拟商户网站原有数据模型 |
-  | 2    | OrdersCreateInput.java | PayPal javasdk中调研CreateOrder接口使用的数据模型 |
+  | 2    | OrdersRequest.java | PayPal javasdk中调研CreateOrder接口使用的业务数据模型 |
   | 3    | CreateOrderDetailed.json | PayPal官方提供的CreateOrder示例报文,postman地址<https://www.postman.com/paypal/paypal-public-api-workspace/example/19024122-a7885e7f-4c74-42c2-9dda-e5244bec3e79> |
 
   ### 2.1 MarsCode + DeepSeek V3
@@ -32,4 +32,7 @@
   1. 第一次尝试：
   * 先说总结：代码生成2分钟 + 代码修复总花费70分钟。对提示词的修改3次。
   * 详细调查记录见wiki:   [CreateOrder_实体商品_Try1.md](./CreateOrder_实体商品_Try1.md)
+
+  2. 第二次尝试：
+  
   

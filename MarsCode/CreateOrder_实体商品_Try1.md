@@ -26,10 +26,6 @@ purchaseUnits.items.unitAmount.value,
 purchaseUnits.amount,
 purchaseUnits.amount.currencyCode,
 purchaseUnits.amount.value,
-purchaseUnits.amount.breakdown,
-purchaseUnits.amount.breakdown.itemTotal,
-purchaseUnits.amount.breakdown.itemTotal.currencyCode,
-purchaseUnits.amount.breakdown.itemTotal.value,
 purchaseUnits.shipping,
 purchaseUnits.shipping.type(type默认值SHIPPING),
 purchaseUnits.shipping.name,
@@ -52,7 +48,6 @@ paymentSource.paypal.experienceContext.cancelUrl
 2. 生成代码时禁止使用建造者模式, 请只使用setter和getter方法
 3. 尽可能多的将项目实例的字段映射到目标实例中
 4. 映射过程需要使用目标实例的枚举值基于示例报文
-5. 金额的计算需要使用BigDecimal来处理，默认返回两位小数
 ```
 
 ## 生成结果
@@ -159,6 +154,7 @@ private OrderRequest createOrderRequest(OrderVO orderVO) {
 
 * Step 3
 * 剩下的5个错误也是由于赋值逻辑错误引起的。手动修复这些错误（修复时间15分钟)
+* 全部error修复完成截图
 ![STEP 3](./images/Try1/mars_deepseekv3_step3.png)
 
 * Step 4
