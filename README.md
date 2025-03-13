@@ -2,7 +2,7 @@
 
 ## 1. 目的
 
-* 通过市场上的AI编程工具，结合PayPal为开发者提供的对接文档/工具/Sample代码等，能够使商户能够快速完成技术对接。
+* 通过市场上的AI编程工具，结合PayPal为开发者提供的对接文档/工具/Sample代码等，能够使商户加速完成技术对接。
 
 ## 2. AI编程工具调查
 
@@ -17,7 +17,7 @@
 ## 3. 调查方案
 
 * 目前设定3个use cases,
-    1. Auto-generate CreateOrder API mappings,(自动生成CreateOrder API的代码转换逻辑)。
+    1. Auto-generate CreateOrder API mappings (自动生成CreateOrder API的代码转换逻辑)。
     2. Auto-complete coding with PayPal sample codes（基于PayPal的sample代码，自动补全代码）
     3. Auto-testing with PayPal sample requests （自动生成测试代码）
 

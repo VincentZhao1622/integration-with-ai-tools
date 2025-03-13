@@ -47,7 +47,7 @@ paymentSource.paypal.experienceContext.cancelUrl
 
 2. 生成代码时禁止使用建造者模式, 请只使用setter和getter方法
 3. 尽可能多的将项目实例的字段映射到目标实例中
-4. 映射过程需要使用目标实例的枚举值基于示例报文
+4. 映射过程需要使用目标实例的枚举值
 ```
 
 ## 生成结果
@@ -328,6 +328,6 @@ private OrderRequest createOrderRequest(OrderVO orderVO) {
 }
 ```
 
-# 总结
+## 总结
 
 * 第一次尝试代码修复总花费70分钟。对提示词的修改3次。
