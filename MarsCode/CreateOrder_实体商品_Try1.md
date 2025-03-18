@@ -211,6 +211,7 @@ private OrderRequest createOrderRequest(OrderVO orderVO) {
 
 * Step 8
 * 流程正常走通。显示成功页面。capture报文如下。
+
 ![STEP 8](./images/Try1/mars_deepseekv3_step7.png)
 
 ```json

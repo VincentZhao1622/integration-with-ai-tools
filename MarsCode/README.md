@@ -2,12 +2,12 @@
 
 ## 1. MarsCode总览
 
-* 调查时间 ： 2025年3月6日
+* 调查时间 ： 2025年3月18日
 
  | Feature  | Comments |
  | -------- | -------- |
  | 费用     | 免费 |
- | 默认LLM  | DouBao/DeepSeek |
+ | 默认LLM  | DouBao/DeepSeek V3/DeepSeek R1 |
  | IDE支持  | Vscode/idea插件支持 |
  | 编程支持  | 对话/自动补全   |
  | VPN?     | 不需要     |
@@ -16,7 +16,7 @@
 ## 2. 调研Use case 1, JAVA后端 + PayPal javasdk(v2)
 
 * IDE: IntelliJ IDEA 2024.3.4 (Community Edition)
-* 插件： IDEA github MarsCode - 1.5.37版本
+* 插件： IDEA MarsCode AI - 1.2.1.20版本
 * JAVA版本： 21
 * 代码使用清单：
 
