@@ -26,9 +26,9 @@
   | 2    | OrdersRequest.java | PayPal javasdk中调研CreateOrder接口使用的业务数据模型 |
   | 3    | CreateOrderDetailed.json | PayPal官方提供的CreateOrder示例报文,postman地址<https://www.postman.com/paypal/paypal-public-api-workspace/example/19024122-a7885e7f-4c74-42c2-9dda-e5244bec3e79> |
 
-  ### 2.1 MarsCode + DeepSeek V3
+  ### 2.1 提示词探寻
 
-  使用MarsCode的chat功能，提供合适的提示词及材料，尝试让工具生成我们想要的代码。
+  使用MarsCode + DeepSeek V3，尝试提供合适的提示词及材料，让工具生成我们想要的代码。
 
   a. 第一次尝试：
   * 总结：代码生成2分钟 + 代码修复花费70分钟。对提示词的修改3次。
@@ -47,3 +47,10 @@
   d. 小结：
   * DeepSeek V3能够正确理解提示词，并生成符合要求的代码。
   * 需要人工干预调整的代码主要是对PayPal SDK中子类实例化的错误。
+
+  ### 2.2 横向对比MarsCode中各模型
+  
+  | LLM name    | 编译错误数量 | 逻辑错误数量 | 错误修复所需时间 | 备注              |  
+  | ----------- | ----------- | ----------- | --------------- | ----------------- | 
+  | DeepSeek V3 | 31          | 0           | 10分钟          | 对SDK中实例的子类生成会错误 |
+  | DeepSeek R1 | 31          | 0           | 10分钟          | 对SDK中实例的子类生成会错误 |
